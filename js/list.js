@@ -18,9 +18,11 @@ $(document).ready(function () {
                     </div>
 
                     <div class="scheduleVisit">
-                        <button>Agendar visita</button>
+                        <button data-toggle="modal" data-target="#exampleModal">Agendar visita</button>
                     </div>
                 </div>
+
+                
                 `);
             })
         })
